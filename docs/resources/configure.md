@@ -85,7 +85,7 @@ vim.api.nvim_create_autocmd({ "BufEnter" }, {
 ```toml
 [[language]]
 name = "requirements"
-language-servers = [ "requirements-language-server",]
+language-servers = ["requirements-language-server"]
 
 [language_server.requirements-language-server]
 command = "requirements-language-server"
@@ -99,7 +99,7 @@ command = "requirements-language-server"
 
 ```toml
 [language_server.requirements-language-server]
-filetypes = [ "requirements",]
+filetypes = ["requirements"]
 command = "requirements-language-server"
 ```
 
